@@ -123,7 +123,7 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: x-large;
-    padding: 20px 850px 20px 20px;
+    padding: 20px 850px 20px 0px;
     border-bottom: solid #777777 1px;
     margin: 20px;
 }
@@ -135,6 +135,8 @@ footer {
     margin: 110px 20px 0px 20px;
     position: relative;
     text-align: center;
+    
+
 }
 
 .print {
@@ -142,8 +144,9 @@ footer {
     overflow: auto;
     width: 250px;
     height: 180px;
-    margin: 30px 20px 0px 20px;
+    margin: 30px 20px 30px 20px;
     float: left;
+    text-align: center;
 }
 
 .social {
@@ -151,6 +154,7 @@ footer {
     height: 180px;
     margin: 30px 20px 0px 20px;
     float: left;
+    text-align: center;
 }
 
 .dog {
@@ -158,6 +162,7 @@ footer {
     width: 250px;
     height: 180px;
     margin: 30px 20px 0px 20px;
+    text-align: center;
 }
 
 .container-c {
@@ -185,4 +190,19 @@ footer {
     padding: 10px;
     color: white;
     width: 100px;
+}
+
+.relative {
+    position: relative;
+    background-image: url('../images/Craft.jpg');
+
+}
+
+.website {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    width: 230px;
+    bottom: 20px;
+    position: absolute;
 }
